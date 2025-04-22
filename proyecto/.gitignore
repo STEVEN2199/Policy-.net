@@ -1,0 +1,37 @@
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de .NET Backend
+**/bin/
+**/obj/
+*.userprefs
+*.suo
+*.sln.docstates
+*.vspscc
+*.vssscc
+*.csproj.user
+Properties/launchSettings.json
+*.log
+*.config
+appsettings.Development.json
+publish/
+
+# Ignorar archivos de Node.js/React Frontend (asumiendo que tu frontend está en una subcarpeta)
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.yarn
+frontend/.pnp*
+frontend/.DS_Store
+
+# Ignorar archivos comunes de IDEs
+.idea/
+.vscode/
+.vs/*
+# Otros archivos o carpetas que quieras ignorar
+# ejemplo: logs/, temporales/
